@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Supermercado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Supermercado</h1>
+        <form id="productForm">
+            <input type="text" id="productName" placeholder="Nombre del producto" required>
+            <input type="number" id="productPrice" placeholder="Precio" required min="0" step="0.01">
+            <button type="submit">Agregar Producto</button>
+        </form>
+        <ul id="productList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
